@@ -8,7 +8,7 @@ Informáticas. -Proyecto Final para la asignatura: Programación II.
 * Entorno de Desarrollo: MonoDevelop
 
 ## Desarrolladores:
-* Gabriel Roa (https://github.com/gaboroa14)
-* Rubén Gutiérrez
-* Marielba Maldonado (https://github.com/Marielbamar21)
 * Albert Acevedo (https://github.com/ajav06)
+* Gabriel Roa (https://github.com/gaboroa14)
+* Rubén Gutiérrez (https://gitlab.com/gutierrezruben184)
+* Marielba Maldonado (https://github.com/Marielbamar21)
