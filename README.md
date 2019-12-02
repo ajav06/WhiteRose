@@ -1,6 +1,6 @@
 # WhiteRose
 Sistema de ventas, desarrollado para una Empresa dedicada a la venta de Software empresarial y soluciones
-Informáticas. - Proyecto. Asignatura: Programación II.
+Informáticas. - Proyecto Final para la asignatura: Programación II.
 
 ## Desarrollado en:
 * Lenguaje de Programación: C#
