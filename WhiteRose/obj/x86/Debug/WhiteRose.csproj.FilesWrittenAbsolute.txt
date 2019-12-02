@@ -1,0 +1,7 @@
+/home/scorpion/Documentos/Albert/WhiteRose/WhiteRose/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/scorpion/Documentos/Albert/WhiteRose/WhiteRose/obj/x86/Debug/WhiteRose.gtk-gui.gui.stetic
+/home/scorpion/Documentos/Albert/WhiteRose/WhiteRose/bin/Debug/WhiteRose.exe.mdb
+/home/scorpion/Documentos/Albert/WhiteRose/WhiteRose/bin/Debug/WhiteRose.exe
+/home/scorpion/Documentos/Albert/WhiteRose/WhiteRose/obj/x86/Debug/WhiteRose.exe
+/home/scorpion/Documentos/Albert/WhiteRose/WhiteRose/obj/x86/Debug/WhiteRose.exe.mdb
+/home/scorpion/Documentos/Albert/WhiteRose/WhiteRose/bin/Debug/MySql.Data.dll

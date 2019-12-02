@@ -1,0 +1,3 @@
+C:\Users\Scorpion\Desktop\AJAV06\Nueva carpeta (2)\otro\WhiteRose_Full\WhiteRose\WhiteRose\obj\x86\Debug\WhiteRose.csprojAssemblyReference.cache
+C:\Users\Scorpion\Desktop\AJAV06\Nueva carpeta (2)\otro\WhiteRose_Full\WhiteRose\WhiteRose\obj\x86\Debug\WhiteRose.csproj.CoreCompileInputs.cache
+C:\Users\Scorpion\Desktop\AJAV06\Nueva carpeta (2)\otro\WhiteRose_Full\WhiteRose\WhiteRose\obj\x86\Debug\WhiteRose.exe

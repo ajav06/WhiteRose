@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{2EE3FA0A-A3FD-4E98-BA21-9D1DDF03FE1C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WhiteRose</RootNamespace>
+    <AssemblyName>WhiteRose</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="gtk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+      <Package>gtk-sharp-2.0</Package>
+    </Reference>
+    <Reference Include="gdk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+      <Package>gtk-sharp-2.0</Package>
+    </Reference>
+    <Reference Include="glib-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+      <Package>glib-sharp-2.0</Package>
+    </Reference>
+    <Reference Include="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+      <Package>glade-sharp-2.0</Package>
+    </Reference>
+    <Reference Include="pango-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+      <Package>gtk-sharp-2.0</Package>
+    </Reference>
+    <Reference Include="atk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+      <Package>gtk-sharp-2.0</Package>
+    </Reference>
+    <Reference Include="Mono.Posix" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\mysql-connector-net-6.9.10-noinstall\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="gtk-gui\gui.stetic">
+      <LogicalName>gui.stetic</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="gtk-gui\generated.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Estilo.cs" />
+    <Compile Include="Ventanas\VntActualizarCliente.cs" />
+    <Compile Include="Ventanas\VntActualizarServicios.cs" />
+    <Compile Include="Ventanas\VntActualizarUsuarios.cs" />
+    <Compile Include="Ventanas\VntBuscarServicio.cs" />
+    <Compile Include="Ventanas\VntConsultarFactura.cs" />
+    <Compile Include="Ventanas\VntFechaCalendario.cs" />
+    <Compile Include="Ventanas\VntLogin.cs" />
+    <Compile Include="Ventanas\VntMenuPrincipal.cs" />
+    <Compile Include="Ventanas\VntProcesarVentas.cs" />
+    <Compile Include="Ventanas\VntReportesVentas.cs" />
+    <Compile Include="Ventanas\VntSplashScreen.cs" />
+    <Compile Include="Validaciones\TmrFechaHora.cs" />
+    <Compile Include="Validaciones\Validaciones.cs" />
+    <Compile Include="Modelos\Cliente.cs" />
+    <Compile Include="Modelos\FacturaVenta.cs" />
+    <Compile Include="Modelos\Servicios.cs" />
+    <Compile Include="Modelos\Usuario.cs" />
+    <Compile Include="Conexiones MySql\ConexBase.cs" />
+    <Compile Include="Conexiones MySql\ConexBuscarServicio.cs" />
+    <Compile Include="Conexiones MySql\ConexCliente.cs" />
+    <Compile Include="Conexiones MySql\ConexConsultaFactura.cs" />
+    <Compile Include="Conexiones MySql\ConexLogin.cs" />
+    <Compile Include="Conexiones MySql\ConexReportes.cs" />
+    <Compile Include="Conexiones MySql\ConexServicios.cs" />
+    <Compile Include="Conexiones MySql\ConexUsuario.cs" />
+    <Compile Include="Conexiones MySql\ConexVenta.cs" />
+    <Compile Include="gtk-gui\WhiteRose.VntActualizarCliente.cs" />
+    <Compile Include="gtk-gui\WhiteRose.VntActualizarUsuarios.cs" />
+    <Compile Include="gtk-gui\WhiteRose.VntBuscarServicio.cs" />
+    <Compile Include="gtk-gui\WhiteRose.VntConsultarFactura.cs" />
+    <Compile Include="gtk-gui\WhiteRose.VntFechaCalendario.cs" />
+    <Compile Include="gtk-gui\WhiteRose.VntLogin.cs" />
+    <Compile Include="gtk-gui\WhiteRose.VntMenuPrincipal.cs" />
+    <Compile Include="gtk-gui\WhiteRose.VntProcesarVentas.cs" />
+    <Compile Include="gtk-gui\WhiteRose.VntReportesVentas.cs" />
+    <Compile Include="gtk-gui\WhiteRose.VntSplashScreen.cs" />
+    <Compile Include="gtk-gui\WhiteRose.VntActualizarServicios.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
