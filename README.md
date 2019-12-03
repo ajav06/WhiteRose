@@ -4,7 +4,7 @@ Informáticas. -Proyecto Final para la asignatura: Programación II.
 
 ## Desarrollado en:
 * Lenguaje de Programación: C#
-* Base de Datos: MySQL
+* Manejador de base de Datos: MySQL
 * Entorno de Desarrollo: MonoDevelop
 
 ## Desarrolladores:
