@@ -10,5 +10,5 @@ Informáticas. -Proyecto Final para la asignatura: Programación II.
 ## Desarrolladores:
 * Albert Acevedo (https://github.com/ajav06)
 * Gabriel Roa (https://github.com/gaboroa14)
-* Rubén Gutiérrez (https://gitlab.com/gutierrezruben184)
+* Rubén Gutiérrez (https://github.com/gutierrezruben184)
 * Marielba Maldonado (https://github.com/Marielbamar21)
